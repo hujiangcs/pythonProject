@@ -6,15 +6,3 @@
 # 4、定义一个start.py ，启动文件展示最终存款金额
 #!/usr/bin/python3
 saved_money = 1000
-def  send_money():
-    global saved_money
-    saved_money=2000
-    if saved_money==2000:
-        print("发工资了")
-    else:
-        print("没有发工资")
-def  select_money():
-    if saved_money==2000:
-       print("存款:2000元")
-    else:
-        print("存款:1000元")
